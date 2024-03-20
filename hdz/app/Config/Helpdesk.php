@@ -14,16 +14,16 @@ use CodeIgniter\Config\BaseConfig;
 class Helpdesk extends BaseConfig
 {
     #Database host
-    const DB_HOST = 'localhost';
+    const DB_HOST = 'helpdeskz-server.mysql.database.azure.com';
 
     #Database username
-    const DB_USER = 'root';
+    const DB_USER = 'lcindszyxt';
 
     #Database password
-    const DB_PASSWORD = '';
+    const DB_PASSWORD = '557UVX8K4RX87234$';
 
     #Database name
-    const DB_NAME = 'helpdeskz';
+    const DB_NAME = 'helpdeskz-database';
 
     #Database table prefix
     const DB_PREFIX = 'hdz_';
@@ -32,7 +32,7 @@ class Helpdesk extends BaseConfig
     const DB_PORT = 3306;
 
     #URL of your helpdesk
-    const SITE_URL = 'http://mysite.com/support';
+    const SITE_URL = 'https://helpdeskz.azurewebsites.net/';
 
     #Upload path for images used in HTML editor and logo
     const UPLOAD_PATH = FCPATH.'upload';
